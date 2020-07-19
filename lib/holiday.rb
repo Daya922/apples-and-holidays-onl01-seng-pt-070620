@@ -29,7 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   #binding.pry
  holiday_hash[:winter].each do |key, value|
 end
-
+end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
@@ -39,7 +39,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     #binding.pry
     
 end
-end
+
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
